@@ -122,3 +122,14 @@ h1 {
         width: 100%;
     }
 }
+
+.title-container{
+    transform: translate(0px, 0px);
+    text-shadow:
+      3px 0px 0px rgba(72, 191, 33, 1),
+      0px 0px 0px rgba(230, 18, 18, 1);
+}
+.text {
+    font: italic bold 30px "Good Foot";
+    letter-spacing: 11px;
+  }

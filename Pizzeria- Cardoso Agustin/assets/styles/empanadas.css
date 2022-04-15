@@ -59,4 +59,17 @@
     margin-top: 10px;
 }
 
+.card-container:hover {
+    transform: translate(5px, 5px);
+    animation: cssAnimation_0 1209ms infinite ease-out 1s;
+}
+
+@keyframes cssAnimation_0 {
+    to {
+      box-shadow: 3px 3px 17px 9px rgba(255, 1, 1, 0.84);
+    }
+  }
+
+ 
+
 
