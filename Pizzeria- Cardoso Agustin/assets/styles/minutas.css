@@ -46,13 +46,6 @@
     justify-content: center;
 }
 
-.card-price span {
-    z-index: 100;
-}
-
-.card-title span {
-    z-index: 100;
-}
 
 .price-container {
     width: 100%;
@@ -89,6 +82,6 @@ body {
 
 @keyframes cssAnimation_0 {
     to {
-      box-shadow: 3px 3px 17px 9px rgba(206, 177, 177, 0.3);
+        box-shadow: 3px 3px 17px 9px rgba(206, 177, 177, 0.3);
     }
-  }
+}
