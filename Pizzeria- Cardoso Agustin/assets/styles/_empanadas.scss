@@ -6,9 +6,8 @@
     margin-top: 30px;
 }
 
-.card-container {
+.card-container-emp {
     margin-top: 10px;
-    /* height: 100%; */
     background-color: aqua;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.199);
 }
@@ -17,7 +16,6 @@
     width: 100%;
     height: 70%;
     background-color: beige;
-    /* background-image: url('../img/empanadas/empanadas.jpg'); */
 }
 
 .image-container img {
@@ -32,7 +30,7 @@
 }
 
 .bg-italian {
-    z-index: 99;
+    z-index: 9;
     background: -webkit-linear-gradient(110deg, #2c911da3 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, white 66%, tomato 66%);
     background: -o-linear-gradient(110deg, #2c911da3 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, white 66%, tomato 66%);
     background: -moz-linear-gradient(110deg, #2c911da3 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, white 66%, tomato 66%);
@@ -63,7 +61,7 @@
     margin-top: 10px;
 }
 
-.card-container:hover {
+.card-container-emp:hover {
     transform: translate(5px, 5px);
     animation: cssAnimation_0 1209ms infinite ease-out 1s;
 }

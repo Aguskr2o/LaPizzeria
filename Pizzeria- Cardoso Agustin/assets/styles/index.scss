@@ -1,46 +1,26 @@
+@import "./minutas";
+@import "./pizzas";
+@import "./_empanadas";
+@import "./contacto";
+@import "./home";
+@import "./footer";
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-ul {
-    li.logo {
-        float: left;
-        margin-right: 10px;
-    }
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: tomato;
+    border: 5px red outset;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #237c16e8;
-}
-
-li {
-    float: right;
-}
-
-li {
-    a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-    }
-}
-
-li {
-    a.link:hover {
-        background-color: #2c911da3;
-    }
-}
-
-.static-foot {
-    font-size: 17px;
-    cursor: default;
+.titleContact {
+    @extend h1;
+    @extend .bg-italian;
+    color: green;
 }
 
 /* NUEVOS ESTILOS !!!! */
@@ -60,8 +40,6 @@ li {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
-    /* overflow-wrap: wrap; */
-    /* height: 100%;s */
 }
 
 .home-images {
@@ -91,7 +69,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 62px;
+    height: 65px;
 }
 
 .mobile-navbar {
@@ -145,18 +123,24 @@ li {
     }
 }
 
-.nav-container .hamburger-lines {
-    display: block;
-    height: 26px;
-    width: 32px;
-    position: absolute;
-    top: 17px;
-    left: 20px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.nav-container {
+    .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    ;
 }
+
+;
 
 .nav-container .hamburger-lines .line {
     display: block;
@@ -229,3 +213,5 @@ li {
         display: none !important;
     }
 }
+
+/* Estilo Empanadas y Minutas */

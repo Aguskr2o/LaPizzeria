@@ -1,0 +1,39 @@
+ul {
+    li.logo {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #237c16e8;
+}
+
+li {
+    float: right;
+}
+
+li {
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+}
+
+li {
+    a.link:hover {
+        background-color: #2c911da3;
+    }
+}
+
+.static-foot {
+    font-size: 17px;
+    cursor: default;
+}
