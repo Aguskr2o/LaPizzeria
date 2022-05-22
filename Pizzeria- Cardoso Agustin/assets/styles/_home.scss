@@ -90,7 +90,7 @@
 
     .home-images-container {
         display: flex !important;
-        flex-direction: column;
+        flex-direction: column!important;
     }
 
     .home-image-item {
