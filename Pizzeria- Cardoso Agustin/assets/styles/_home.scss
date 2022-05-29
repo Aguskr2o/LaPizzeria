@@ -68,8 +68,6 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
-    /* overflow-wrap: wrap; */
-    /* height: 100%; */
 }
 
 .home-images {
@@ -89,8 +87,7 @@
     }
 
     .home-images-container {
-        display: flex !important;
-        flex-direction: column!important;
+        display: none;
     }
 
     .home-image-item {

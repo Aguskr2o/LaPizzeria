@@ -21,41 +21,33 @@
 
 
 <body>
-  <header>
-    <nav class="navBarDesktop">
-      <ul>
-        <li><a class="link" href="./contacto.html">Contacto</a></li>
-        <li><a class="link" href="./minutas.html">Minutas</a></li>
-        <li><a class="link" href="./empanadas.html">Empanadas</a></li>
-        <li><a class="link" href="./pizzas.html">Pizzas</a></li>
-        <li><a class="link" href="../index.html">Home</a></li>
-        <li class="logo"><a class="link" href="../index.html">La Pizzeria</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">La Pizzeria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-    <nav>
-      <div class="mobile-navbar">
-        <div class="container nav-container">
-          <input class="checkbox" type="checkbox" name="" id="" />
-          <div class="hamburger-lines">
-            <span class="line line1"></span>
-            <span class="line line2"></span>
-            <span class="line line3"></span>
-          </div>
-          <div class="menu-items">
-            <li><a href="./pizzas.html">Pizzas</a></li>
-            <li><a href="./empanadas.html">Empanadas</a></li>
-            <li><a href="./minutas.html">Minutas</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="../index.html">Home</a></li>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-
-  </header>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./minutas.html">Minutas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./empanadas.html">Empanadas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pizzas.html">Pizzas</a>
+            </li>
+        </ul>
+    </div>
+</nav>
   <main>
     <section>
       <h1>Nuestro top 10 de Pizzas Mas Vendidas</h1>

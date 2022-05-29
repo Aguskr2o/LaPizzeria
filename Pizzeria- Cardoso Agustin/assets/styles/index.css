@@ -222,13 +222,6 @@ tr:nth-child(even) {
   object-fit: contain;
   margin-top: 3px; }
 
-.home-images-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: space-around;
-  /* overflow-wrap: wrap; */
-  /* height: 100%; */ }
-
 .home-images {
   width: 100%;
   height: 100%; }
@@ -241,8 +234,8 @@ tr:nth-child(even) {
   .banner-container {
     display: none; }
   .home-images-container {
-    display: flex;
-    flex-direction: column; }
+    display: none!important;
+  }
   .home-image-item {
     width: 100%; }
   .video {
@@ -269,11 +262,11 @@ tr:nth-child(even) {
   font: italic bold 30px "Good Foot";
   letter-spacing: 11px; }
 
-ul li.logo {
+footer ul li.logo {
   float: left;
   margin-right: 10px; }
 
-ul {
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -341,7 +334,7 @@ h1, .titleContact {
   width: 90%;
   margin: auto; }
 
-.mobile-navbar {
+/* .mobile-navbar {
   width: 100%;
   display: none;
   background-color: #4fb84f; }
@@ -449,6 +442,10 @@ h1, .titleContact {
   .mobile-navbar {
     display: block; }
   .navBarDesktop {
-    display: none !important; } }
+    display: none !important; } } */
 
 /* Estilo Empanadas y Minutas */
+
+.bg-nav {
+  background-color: #48bf21!important;
+}
